@@ -1,0 +1,37 @@
+
+title{
+
+}
+h1{
+	font-size:2.5em;
+	font-family:"PT Serif","Noto sans",serif;
+	color:#a9702f;
+}
+h2{
+	font-family:"PT Serif", serif;
+	font-size:2em;
+	color:#c67b2f;
+}
+h4{
+	font-size: 1.5em;
+	color:#c67b2f;
+	font-family: "PT Serif"
+}
+
+body {
+	padding: 50px;
+	background-color:#b2d6F7;/*#b9b7b2;*/
+}
+p{
+	font-family:"Noto sans", serif;
+	line-height:1.5;
+	color:#3f3b1a;
+	word-spacing:4px;
+}
+
+li{
+	font-size:.9em;
+	font-family: "Noto sans", serif;
+	color: #3f3b1a;
+	word-spacing:3px;
+}
