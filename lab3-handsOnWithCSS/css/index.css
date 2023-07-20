@@ -1,0 +1,39 @@
+h1{
+	font-family:sans-serif;
+	background-color:rgb(230,230,190);
+	font-size:50px;
+	text-align:center;
+}
+
+h2{
+	background-color:#ff0000;
+	font-family:serif;
+	font-size:30px;
+	font-style:italic;
+	font-variant:small-caps;
+	letter-spacing:5px;
+	
+}
+
+body{
+	background-image:url("../images/prettyPattern.gif");
+}
+
+li{
+	word-spacing:5px;
+}
+
+p{
+	text-decoration-line: overline;
+	font-weight:900;
+}
+
+b{
+	color:blue;
+}
+a:hover{
+	color:red;
+	text-transform: uppercase;
+	text-decoration:none;
+	background-color:rgb(255,255,150);
+}

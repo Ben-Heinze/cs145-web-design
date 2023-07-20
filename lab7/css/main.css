@@ -1,0 +1,92 @@
+body {
+  background-image: url(../images/bckgrnd.jpg);
+  background-repeat: repeat-x;
+  margin-top: 0;
+  text-align: center;
+}
+
+/*---DIV Tags---*/
+#wrapper{
+	width:850px;
+	margin:0px auto;
+	padding:0px;
+	text-align:left;
+	background-color:white;
+}
+
+#header{
+	margin:0px;
+	padding:0px;
+	width:850px;
+	height:205px;
+	background-image:url(../images/banner.jpg);
+}
+
+#navholder{
+	height:25px;
+	width:850px;
+	background-image:url(../images/nav_back.png);
+	background-repeat: repeat-x;
+}
+
+#nav{
+	padding:0px;
+	margin:0px;
+}
+
+#container{
+	background-color:white;
+	width:850px;
+	margin:0px;
+	padding:0px;
+}
+
+#leftCol{
+	width:525px;
+	float:left;
+	padding:10px 10px 10px 15px;/*top  right bottom left*/
+}
+
+#rightCol{
+	width:275px;
+	float: right;
+	padding: 10px 15px 10px 10px;/*top right bottom left*/
+}
+
+#footer{
+	background-color:black;
+	padding:0px;
+	margin:0px;
+	width:850px;
+	height:25px;
+	clear:both;
+}
+
+#nav li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	display: inline;
+	list-style-type: none;
+}
+
+#nav a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-decoration:none;
+	text-align: center;
+	height: 21px;
+	display:block;
+	width: 120px;
+	padding-top: 4px;
+
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color: #777;
+}
+
+#nav a:hover{
+	background-image: url(../images/nav_on.png);	
+	background-repeat: repeat-x;
+}
