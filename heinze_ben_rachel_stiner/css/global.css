@@ -1,3 +1,91 @@
 body{
-	background-color:yellow;
+	background-color:white;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+header{
+	overflow:hidden;
+	background-color:olive;
+	color: black;
+	width:100%;
+	height:100px;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	padding:10px;
+}
+/*=====HEADER BANNER INFO========================================= */
+/*....BANNER LEFT...........................*/
+#restuarantLogoContainer{
+	float:left;
+}
+#restuarantLogoContainer img{
+	width:auto;
+	height:95px;
+}
+
+
+
+/*....BANNER CENTER...........................*/
+
+#navigation{
+	float:center;
+	display: inline;
+}
+#navigation li{
+	font-size: 60px;
+	display:inline;
+	padding: 0px;
+}
+
+
+
+/*......BANNER RIGHT...........................*/
+#socialMediaLogos img{
+	float:right;
+	width:auto;
+	height:60px;
+	margin-right:10px;
+	
+}
+
+
+
+/*======FOOTER===========================*/
+footer{
+	color:white;
+	position:fixed;
+	bottom:0;
+	overflow:hidden;
+	background-color:olive;
+	color:black;
+	width:100%;
+	height: 200px;
+	display:flex;
+}
+h3{
+	color:white;
+}
+/*....BANNER LEFT.............*/
+#findUs{
+	float:left;
+	
+}
+
+
+
+/*....BANNER CENTER.............*/
+
+#hours{
+	float:center;
+
+}
+
+
+
+/*....BANNER RIGHT.............*/
+#contactUs{
+	float:right;
 }
