@@ -1,3 +1,54 @@
-h1 {
-	color:blue;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
 }
+
+.menu {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	overflow-y:auto;
+	max-height:80vh;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex-basis: 48%; /* Each column takes 48% of the available width */
+}
+
+.desserts, .beverages, .build-your-own {
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.build-your-own {
+	flex-basis: 48%;
+}
+
+
+/* For smaller screens, adjust column layout */
+@media screen and (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .column {
+        flex-basis: auto;
+        margin-bottom: 20px;
+    }
+}
+
+

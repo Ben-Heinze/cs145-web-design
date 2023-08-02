@@ -1,5 +1,6 @@
 body{
 	background-color:white;
+	
 	margin:0;
 	padding:0;
 	overflow:hidden;
@@ -7,7 +8,78 @@ body{
 
 header{
 	overflow:hidden;
-	background-color:olive;
+	background-color:#313D1D;
+	color: black;
+	width:100%;
+	height:80px;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	padding:10px;
+}
+
+
+a{
+	color:#2B78E4;
+	text-decoration: none;
+}
+a:active{
+	color:#2B78E4;
+
+}
+
+
+
+/*=====HEADER BANNER INFO========================================= */
+/*....BANNER LEFT...........................*/
+#restuarantLogoContainer{
+	float:left;
+}
+#restuarantLogoContainer img{
+	width:auto;
+	height:90px;
+}
+
+
+
+/*....BANNER CENTER...........................*/
+
+#navigation{
+	margin-left:20px;
+	float:center;
+	display: inline;
+}
+#navigation li{
+	font-size: 40px;
+	display:inline;
+	padding: 5px;
+}
+
+
+
+/*......BANNER RIGHT...........................*/
+#socialMediaLogos{
+	margin-right:50px;
+}
+
+#socialMediaLogos img{
+	float:right;
+	width:auto;
+	height:30px;
+	padding:20px;
+	
+}
+
+
+
+/*======FOOTER===========================*/
+#footer{
+	margin:0;
+	display:none;
+	position:static;
+	bottom:0;
+	overflow:hidden;
+	background-color:#313D1D;
 	color: black;
 	width:100%;
 	height:100px;
@@ -16,58 +88,10 @@ header{
 	justify-content: space-between;
 	padding:10px;
 }
-/*=====HEADER BANNER INFO========================================= */
-/*....BANNER LEFT...........................*/
-#restuarantLogoContainer{
-	float:left;
-}
-#restuarantLogoContainer img{
-	width:auto;
-	height:95px;
-}
-
-
-
-/*....BANNER CENTER...........................*/
-
-#navigation{
-	float:center;
-	display: inline;
-}
-#navigation li{
-	font-size: 60px;
-	display:inline;
-	padding: 0px;
-}
-
-
-
-/*......BANNER RIGHT...........................*/
-#socialMediaLogos img{
-	float:right;
-	width:auto;
-	height:60px;
-	margin-right:10px;
-	
-}
-
-
-
-/*======FOOTER===========================*/
-footer{
-	color:white;
-	position:fixed;
-	bottom:0;
-	overflow:hidden;
-	background-color:olive;
-	color:black;
-	width:100%;
-	height: 200px;
-	display:flex;
-}
 h3{
 	color:white;
 }
+
 /*....BANNER LEFT.............*/
 #findUs{
 	float:left;
@@ -88,4 +112,5 @@ h3{
 /*....BANNER RIGHT.............*/
 #contactUs{
 	float:right;
+	margin-right:30px;
 }
