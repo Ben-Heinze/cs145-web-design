@@ -19,15 +19,15 @@ h1{
 #gallery {
  float:center;
   display: inline-grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2,100vh);
   grid-gap: 0px;
   overflow:hidden;
   margin-bottom:200px;
 }
 #gallery img{
-	width:90vh;
-	height:100vh;
-	object-fit:cover;
+    max-width: 100hv;
+    height: auto;
+    width: auto\9; /* ie8 */
 	
 }
 
