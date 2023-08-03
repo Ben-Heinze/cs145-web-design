@@ -1,12 +1,10 @@
 
-
 .container {
 	overflow-y:auto;
 	overflow-x:hidden;
     	text-align: center;
     	max-height: 100vh; 
 }
-
 .big-text {
     	font-size: 32px;
 	border: 3px solid black;
@@ -19,7 +17,6 @@
     	justify-content: center;
     	margin-top: 20px;
 }
-
 .column {
     	flex: 1;
     	max-width: 300px;
@@ -29,18 +26,17 @@
 .food-item {
     	margin-bottom: 20px;
 }
-
 .food-item strong {
 	display: block;
     	font-weight: bold;
 }
-
 .price {
     	margin-top: 5px;
     	display: block;
     	font-size: 16px;
     	color: black;
 }
+
 p {
 	padding: 0;
 }
