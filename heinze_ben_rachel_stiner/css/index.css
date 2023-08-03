@@ -2,32 +2,72 @@ body{
 	margin:0;
 	overflow-x:hidden;
 	overflow-y:auto;
+	background-color::#D9B19C;
 }
 h1{
 	margin:0;
 }
 
+
 #welcomeMessage {
-	float:center;
-	background-color:#D9B19C;
+	padding-top:10px;
+	text-align: center;
+  	float:center;
+	background-color:#313D1D;
 	height:200px;
 	width:100%;
 	color: black;
-	justify-content:center;
+
+}
+#welcomeMessage img{
+	max-height:200px;
+	width:auto;
 }
 
+#welcomeMessage h1 {
+  font-size: 100px;
+}
+
+#welcomeMessage h3 {
+	color:black;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+
 #gallery {
- float:center;
-  display: inline-grid;
-  grid-template-columns: repeat(2,100vh);
+	background-color:#D9B19C;
+ float:left;
+  display: grid;
+  grid-template-columns: repeat(2,50%);
   grid-gap: 0px;
   overflow:hidden;
-  margin-bottom:200px;
+  margin:0;
 }
 #gallery img{
-    max-width: 100hv;
-    height: auto;
-    width: auto\9; /* ie8 */
-	
+    max-width: 100%;
+    height: auto; 	
+}
+#gallery img:hover{
+	filter:brightness(80%);
+}
+
+
+.imageContainer {
+  position: relative;
+}
+
+.imageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
 }
 

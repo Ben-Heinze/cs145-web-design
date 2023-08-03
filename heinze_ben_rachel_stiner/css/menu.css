@@ -1,73 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
 	overflow-y:auto;
-	max-height:80%;
-    
+	overflow-x:hidden;
+    text-align: center;
+    margin: 20px auto;
+    max-height: 88vh; 
+    overflow-y: auto;
+}
+
+.big-text {
+    font-size: 48px;
+	border: 3px solid black;
 }
 
 .menu {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-		overflow-y:auto;
-	max-height:80%;
-}
-
-
-.center {
-    text-align: center;
-}
-
-.columns {
+	overflow-y:auto;
+	overflow-x:hidden;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
 }
 
+
 .column {
-    flex-basis: 48%; /* Each column takes 48% of the available width */
+    flex: 1;
+    max-width: 300px;
+    margin: 0 10px;
 }
 
-
-.container {
-  display: flex; /* Use flexbox for the container */
-  	overflow-y:auto;
-	max-height:80%;
+.food-item {
+    margin-bottom: 20px;
 }
 
-.leftcol {
-  flex: 1; /* Take as much space as possible in the left column */
-  display: flex;
-  flex-direction: column; /* Stack the left column elements vertically */
+.food-item strong {
+    display: block;
+    font-weight: bold;
 }
 
-.desserts, .beverages {
-  flex: 1; /* Both box1 and box2 take equal space in the left column */
-  height: 100px; /* Adjust the height of the boxes as per your preference */
-  padding: 10px; /* Add some padding for spacing inside the boxes */
-  border: 2px solid black;
+.price {
+    margin-top: 5px;
+    display: block;
+    font-size: 16px;
+    color: #666;
 }
 
-.build-your-own {
-  flex: 2; /* Box3 takes the remaining space in the container */
-  height: 500px; /* Make Box3 as tall as Box1 and Box2 combined (100px + 100px + 20px margin) */
-  padding: 10px; /* Add some padding for spacing inside Box3 */
-  margin-left: 10px; /* Add some margin to create space between Box3 and the left column */
-    border: 2px solid black;
+.banner {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+	overflow-y:auto;
+	overflow-x:hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
-
-/* For smaller screens, adjust column layout */
-@media screen and (max-width: 600px) {
-    .columns {
-        flex-direction: column;
-    }
-
-    .column {
-        flex-basis: auto;
-        margin-bottom: 20px;
-    }
-}
-
-
