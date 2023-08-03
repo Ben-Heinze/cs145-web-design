@@ -1,25 +1,46 @@
+/*
+tan: #D9B19C
+brown: #856D43
+olive green: #46592A
+darker green: #313D1D
+black: black
+blue: #2B78E4
+*/
 body{
 	background-color:#D9B19C;
-	font-family:Arial;
+	font-family: 'Borel', cursive;
 	margin:0;
 	padding:0;
 	overflow:hidden;
+	font-size:16px;
 }
-
+#toplogo{
+	background-color:#313D1D;
+	border-bottom: 3px solid #46592A;
+	padding-top:10px;
+}
+#toplogo img{
+	display:block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+	height:auto;
+}
 header{
 	overflow:hidden;
 	background-color:#313D1D;
 	color: black;
 	width:100%;
-	height:80px;
+	max-height:80px;
 	display:flex;
 	align-items:center;
-	padding:10px;
+	justify-content:center;
 	border-bottom: 3px solid #46592A;
 }
 
-
 a{
+	padding-top:20px;
+	font-family: 'Borel', cursive;
 	color:#2B78E4;
 	text-decoration: none;
 }
@@ -28,16 +49,14 @@ a:active{
 
 }
 
-
-
-/*=====HEADER BANNER INFO========================================= */
-/*....BANNER LEFT...........................*/
+/*....TOP BANNER LEFT...........................*/
 #restuarantLogoContainer{
-	justify-content:left;
+	justify-content:flex-start;
+
 }
 #restuarantLogoContainer img{
 	width:auto;
-	height:90px;
+	height:60px;
 }
 
 b{
@@ -45,68 +64,72 @@ b{
 }
 
 
-/*....BANNER CENTER...........................*/
+/*....TOP BANNER CENTER...........................*/
 
 #navigation{
-	margin-left:17vh;
-	justify-content:center;
-	display: inline;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 #navigation li{
-	font-size: 40px;
-	display:inline;
+	font-size: 24px;
 	padding: 8px;
+	margin: 0 10px;
 }
 
+/*...TOP BANNER RIGHT....................*/
 
-
-/*......BANNER RIGHT...........................*/
 #socialMediaLogos{
+	margin-left:100px;
 	display:flex;
 	align-items:center;
 	float:right;
-	
 }
-
 #socialMediaLogos img{
+	margin-right: 5px;
 	float:right;
 	width:auto;
 	height:30px;
-	padding:5px;
-	
 }
 
-
-
-/*======FOOTER===========================*/
+/*=======FOOTER=============================*/
 #footer{
-	flex: 0 1 60px;
+	flex: 0 1 30px;
 	border-top: 3px solid #46592A;
 	margin:0;
-	display:none;
+	display:flex;
 	position:static;
 	bottom:0;
 	overflow:hidden;
 	background-color:#313D1D;
-	color: black;
 	width:100%;
 	min-height:100px;
-	display:flex;
 	align-items:center;
 	justify-content: space-between;
 	padding:10px;	
+	flex-wrap:wrap;
+
 }
-h3{
-	color:white;
+#footer h3{
+	flex: 0 0 100%;
+	margin:0;
+	color:#2B78E4;
 }
 
 #footer p{
-	font-size:12px;
+	flex: 0 0 100%;
+	font-size:16px;
+	color:#2B78E4;
+	margin:0;
+	padding-right:20px;
 }
 
-/*....BANNER LEFT.............*/
-#findUs, #hours #contactUs{
-	padding-left:10px;
-	padding-right:10px;
-}
+
+
 

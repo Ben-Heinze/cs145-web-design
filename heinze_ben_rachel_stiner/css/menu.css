@@ -1,64 +1,47 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-}
+
 
 .container {
 	overflow-y:auto;
 	overflow-x:hidden;
-    text-align: center;
-    margin: 20px auto;
-    max-height: 88vh; 
-    overflow-y: auto;
+    	text-align: center;
+    	max-height: 100vh; 
 }
 
 .big-text {
-    font-size: 48px;
+    	font-size: 32px;
 	border: 3px solid black;
 }
 
 .menu {
 	overflow-y:auto;
 	overflow-x:hidden;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    	display: flex;
+    	justify-content: center;
+    	margin-top: 20px;
 }
 
-
 .column {
-    flex: 1;
-    max-width: 300px;
-    margin: 0 10px;
+    	flex: 1;
+    	max-width: 300px;
+    	margin: 0 10px;
 }
 
 .food-item {
-    margin-bottom: 20px;
+    	margin-bottom: 20px;
 }
 
 .food-item strong {
-    display: block;
-    font-weight: bold;
+	display: block;
+    	font-weight: bold;
 }
 
 .price {
-    margin-top: 5px;
-    display: block;
-    font-size: 16px;
-    color: #666;
+    	margin-top: 5px;
+    	display: block;
+    	font-size: 16px;
+    	color: black;
+}
+p {
+	padding: 0;
 }
 
-.banner {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-	overflow-y:auto;
-	overflow-x:hidden;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-}
